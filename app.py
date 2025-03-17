@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 
+ 
+st.set_page_config(page_title="Data Dashboard", page_icon="📂", layout="wide")
 
 st.markdown(
     """
@@ -39,8 +41,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-# 
-st.set_page_config(page_title="Data Dashboard", page_icon="📂", layout="wide")
+
 
 # Title
 st.markdown('<h1 class="title">  Simple Data Dashboard </h1>', unsafe_allow_html=True)
