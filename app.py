@@ -9,7 +9,6 @@ st.markdown(
     <style>
         /* Title */
         .title {
-            
             text-align: center;
             font-size : 36px;
             font-weight :bold;
@@ -27,13 +26,12 @@ st.markdown(
             border : none;
         }
         .stButton button:hover{
-            background-color: #27ae60 !important;
+            background-color: #27ae34 !important;
         }
     </style>
     """,
     unsafe_allow_html=True,
 )
-
 
 
 # Title
